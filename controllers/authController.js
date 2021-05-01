@@ -50,11 +50,8 @@ const createSendToken = (user, statusCode, req, res) => {
 
 exports.signup = catchAsync(async(req,res,next) => {
     const newUser = await User.create({
-        firstName: req.body.firstName,
-        lastName: req.body.lastName,
-        email: req.body.email,
-        password: req.body.password,
-        passwordConfirm: req.body.passwordConfirm
+       userName: req.body.userName,
+       phoneNumber: req.body.phoneNumber
     });
 
     //email verfication part here
