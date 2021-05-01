@@ -1,2 +1,0 @@
-# NodeAuth
-# Authorization &amp; Authrntication

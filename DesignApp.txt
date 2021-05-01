@@ -1,0 +1,21 @@
+
+    Creating Api  for user Registration 
+  =============================================
+  
+step-1:(Done)
+       User will try to register the application by provinding his first name,
+       last name, email id, password
+
+       /signup
+
+step-2: (Done!)
+       if the email id provided is existing in system, it will throw an
+       error saying user exists
+
+       
+   
+
+step-3:
+       otherwise , system will save the information and will send a confirmation
+       email having a link clicking on which will verify the email address.
+

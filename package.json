@@ -1,14 +1,8 @@
 {
-  "name": "nodeauth",
+  "name": "competencies-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "main": "app.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
@@ -16,11 +10,28 @@
     "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "jet": "^0.6.6-0",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.10.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.7",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.12.6",
     "morgan": "^1.10.0",
     "util": "^0.12.3",
     "validator": "^13.6.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ironman009/competencies-backend.git"
+  },
+  "author": "Shivam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ironman009/competencies-backend/issues"
+  },
+  "homepage": "https://github.com/Ironman009/competencies-backend#readme"
 }
