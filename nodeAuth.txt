@@ -1,0 +1,18 @@
+
+
+userRoute
+        userController
+              Factory method
+                     get all users
+                     update user
+                     delete user 
+        authcontroller
+              sign up
+              login
+              reset password
+              forgot password
+              otp gneration
+              email verfication  (based on the token)
+
+
+
